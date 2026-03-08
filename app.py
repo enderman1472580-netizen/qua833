@@ -6,8 +6,9 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Flask sẽ tự tìm file mainchinh.html trong thư mục templates
-    return render_template('mainchinh.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     # Chạy server ở cổng 5000 và bật chế độ debug để tự cập nhật khi sửa code
+
     app.run(debug=True, port=5000)
