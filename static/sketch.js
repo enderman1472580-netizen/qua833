@@ -20,7 +20,7 @@ function windowResized() {
 }
 
 function preload() {
-  music = loadSound("static/thoikhong.mp3");
+  music = loadSound("/static/thoikhong.mp3");
 }
 
 function setup() {
@@ -267,4 +267,3 @@ function showFinalWish() {
     }, 50);
   }
 }
-
