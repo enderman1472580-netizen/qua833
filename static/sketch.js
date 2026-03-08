@@ -108,7 +108,7 @@ function draw() {
   else if (shapeState === 2.5 && elapsed > 76000) shapeState = 3;
   else if (shapeState === 3 && elapsed > 90000) shapeState = 4;
   else if (shapeState === 4 && elapsed > 105000) shapeState = 4.5;
-  else if (shapeState === 4.5 && elapsed > 117000) shapeState = 5;
+  else if (shapeState === 4.5 && elapsed > 119000) shapeState = 5;
   else if (shapeState === 5 && elapsed > 133000) shapeState = 6;
   else if (shapeState === 6 && elapsed > 151000) shapeState = 7;
   else if (shapeState === 7 && elapsed > 170000) shapeState = 8;
